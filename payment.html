@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оплата - Lavander Hill</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="logo_ikonka.ico" type="image/x-icon">   
+</head>
+<body>
+
+  <!-- БОКОВОЙ СЛАЙДЕР (МЕНЮ) -->
+  <div id="side-slider" class="side-slider" aria-hidden="true">
+    <div class="slider-overlay" id="slider-overlay"></div>
+    <div class="slider-content">
+      <button class="close-btn" id="close-slider" aria-label="Закрити меню">&times;</button>
+      <div class="slider-logo">
+        <span>Lavander Hill</span>
+      </div>
+      <nav class="slider-nav">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="buyer.html">Покупцю</a></li>
+          <li><a href="payment.html">Оплата</a></li>
+          <li><a href="delivery.html">Доставка</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">  
+      <div style="display: flex; align-items: center; gap: 15px;">
+        <button class="burger-btn" id="open-slider" aria-label="Відкрити меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <a href="index.html" class="brand">  
+          <img src="logo.jpg" alt="Lavander Hill Logo" class="brand-img" style="height: 60px; width: auto; vertical-align: middle; margin-right: 8px;">  
+          <span class="brand-name">Lavander Hill</span>  
+        </a>  
+      </div>
+      <nav class="main-nav">  
+        <ul>  
+          <li><a href="index.html#catalog">Каталог</a></li>  
+          <li><a href="index.html#about">Про магазин</a></li>  
+        </ul>  
+      </nav>  
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-section">
+      <div class="section-head">
+        <h2>Способи оплати</h2>
+        <p>Обирайте найзручніший для вас спосіб розрахунку</p>
+      </div>
+
+      <div class="info-card-grid">
+        <article class="info-card">
+          <h3>💳 Оплата карткою на сайті</h3>
+          <p>Швидка та безпечна оплата онлайн банківськими картками Visa або MasterCard через платіжну систему.</p>
+        </article>
+
+        <article class="info-card">
+          <h3>🏦 Оплата за реквізитами (IBAN)</h3>
+          <p>Після оформлення замовлення ми надішлемо вам офіційні реквізити для оплати через застосунок вашого банку.</p>
+        </article>
+
+        <article class="info-card">
+          <h3>📦 Оплата при отриманні (Накладений платіж)</h3>
+          <p>Оплата у відділенні «Нової Пошти» після огляду товару. Обрати цей варіант можна при мінімальній передплаті за доставку.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lavander Hill - Family Farm. Всі права захищені.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
